@@ -1,5 +1,5 @@
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-23 02:52 EDT
-Nmap scan report for 104.28.231.11
+Nmap scan report for 
 Host is up (0.0019s latency).
 All 1000 scanned ports on 104.28.231.11 are in ignored states.
 Not shown: 1000 filtered tcp ports (no-response)
