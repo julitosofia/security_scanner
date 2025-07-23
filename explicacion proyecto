@@ -1,0 +1,41 @@
+#Security scanner project
+
+
+#Este proyecto es un escaner de seguridad personalizado que realizar un analisis exhaustivo de las ip, utilizando herramientas como nmap y shodan para detectar vulnerabilidades,puertos abiertos y detalles del sistema operativo.
+
+#Caracteristicas:
+escaneo basico de puertos
+Deteccion de sistema operativo
+Deteccion de servicios y versiones
+Busqueda de vulnerabilidades conocidas
+Integracion con shodan
+Explicacion detallada
+
+#Componentes tecnicos:
+Nmap
+Shodan API
+Python
+Rich
+#Sistema operativo
+lo realice con kali linux
+
+#Flujo de Ejecuccion
+Ingreso de ip
+Escaneo basico con nmap
+escaneo profundo con nmap
+consulta en shodan
+generacion del reporte
+exportacion del reporte
+
+#Como funciona el codigo?
+network_scan.py- se encarga de hacer el escaneo basico de puertos y la deteccion de servicio usando Nmap
+shodan_lookup.py- se conecta a la api de shodan para obtener informacion adicional sobre la ip objetivo
+deep_scan.py-Realiza un escaneo mas profundo de vulnerabilidades , sistema operativo y servicios,usando nmap con los parametros -o,-sv y --script vuln
+ultils.py- contiene funciones auxiliares como la validacion de ip privada
+main.py- archivo principal que coordina la ejecucion del escaner,gestionando las entradas del usuario, llamando a los modulos anteriores y generando el reporte final.
+
+#clonar repositorio
+
+
+
+Julian Sofia.
